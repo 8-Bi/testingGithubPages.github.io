@@ -1,0 +1,67 @@
+*{
+	background:#ffe0ac;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	height: 100%;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	margin-top:100px;
+}
+input{
+	font-family: 'Ubuntu', sans-serif;
+    color: #403866;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    align-items: center;
+    width: 50%;
+    align-content: center;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    height: 62px;
+    padding: 0 20px 0 38px;
+}
+
+.input1{
+	margin-top: 20px;
+}
+.col-12{
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+input[type=submit]{
+	background: #30475e;
+	color: #ffe0ac;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+input[type=submit]:hover{
+	height: 70px;
+	width: 52%;
+	font-size: 20px;
+}
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 25%;
+	left:130px;
+	position: absolute;
+	color: black;
+}
